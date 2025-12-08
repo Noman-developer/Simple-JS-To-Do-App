@@ -1,3 +1,1 @@
-# README
-
-Simple JS based todo app
+# Simple JS based todo app
