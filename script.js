@@ -19,7 +19,7 @@ addBtn.addEventListener('click', function () {
         this.parentElement.classList.toggle('completed');
     });
 
-    // Delete task
+    // Clear a task
     li.querySelector('.del').addEventListener('click', function () {
         li.remove();
     });
