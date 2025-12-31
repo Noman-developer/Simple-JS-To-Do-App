@@ -5,6 +5,7 @@ let taskList = document.getElementById('taskList');
 
 addBtn.addEventListener('click', function () {
     let taskText = taskInput.value.trim();
+    
     if (taskText === "") return;
 
     let li = document.createElement('li');
