@@ -8,7 +8,7 @@ addBtn.addEventListener('click', function () {
     
     if (taskText === "") return;
 
-    let li = document.createElement('li');
+    let li = document.createElement('li 
     li.innerHTML = `
         <span class="text">${taskText}</span>
         <button class="del">X</button>
