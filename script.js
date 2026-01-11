@@ -4,7 +4,7 @@ let taskInput = document.getElementById('taskInput');
 let taskList = document.getElementById('taskList');
 
 addBtn.addEventListener('click', function () {
-    let taskText = taskInput.value.trim();
+    let taskText = taskInput.value.trim(); 
     
     if (taskText === "") return;
 
